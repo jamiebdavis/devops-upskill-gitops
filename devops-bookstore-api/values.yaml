@@ -5,8 +5,7 @@
 replicaCount: 3
 
 image:
-  
-  repository: somedomain/some-repo/devops-bookstore-api
+  repository: 420485217887.dkr.ecr.eu-west-1.amazonaws.com/devops-bookstore-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
